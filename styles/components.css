@@ -19,8 +19,6 @@
   src: url("/assets/fonts/extrabold.otf"); /*URL to font*/
 }
 
-
-
 /*navbar*/
 .navbar-container {
   width: 100%;
@@ -91,34 +89,34 @@ li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  width:100px;
+  width: 100px;
   padding: 10px 16px;
   border: 2px solid #062d78;
-  border-radius:10px;
+  border-radius: 10px;
 }
 /*navbar*/
 
-.container{
+.container {
   width: 100%;
   justify-content: center;
   align-items: center;
 }
 
-.flex-row{
+.flex-row {
   display: flex;
   flex-direction: row;
 }
 
-.flex-center{
+.flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.column{
+.column {
   flex-direction: column;
 }
 
-.left-content{
+.left-content {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -126,42 +124,42 @@ li a:hover {
   justify-content: center;
 }
 
-.right-content{
+.right-content {
   width: 50%;
 }
 
-.header{
+.header {
   font-size: 72px;
   font-family: medium;
 }
 
-.header-1{
+.header-1 {
   font-size: 54px;
   line-height: 59px;
   font-family: regular;
 }
 
-.header-2{
-  font-size: 54px;
-  font-family: semibold;
+.header-2 {
+  font-size: 40px;
+  font-family: regular;
 }
 
-.subtitle-1{
+.subtitle-1 {
   font-size: 24px;
   font-family: regular;
 }
 
-.subtitle-2{
+.subtitle-2 {
   font-size: 18px;
-  font-family: semibold;
+  font-family: regular;
 }
 
-.footer-links{
+.footer-links {
   font-size: 16px;
   font-family: light;
 }
 
-.description{
+.description {
   font-size: 16px;
   font-family: regular;
 }
@@ -170,36 +168,82 @@ li a:hover {
   color: #0e3192;
 }
 
-.dark{
+.dark {
   color: #000;
 }
 
-.light{
+.light {
   color: #fff;
 }
-.col-sm-6{
-  padding-left:0px !important;
-  padding-right:0px !important;
+.col-sm-6 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
-.col-sm-12{
-  padding-left:0px !important;
-  padding-right:0px !important;
-  margin-left:0px !important;
-  margin-right:0px !important;
+.col-sm-12 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
 }
-.sm-12{
-  margin-left:0px !important;
-  margin-right:0px !important;
+.sm-12 {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
 }
-.primary-button{
-  padding:10px 14px;
-  background-color: #0E3192;
+.primary-button {
+  padding: 10px 14px;
+  background-color: #0e3192;
   border-radius: 8px;
-  border:none !important;
-  color:#fff;
+  border: none !important;
+  color: #fff;
   outline: none !important;
   box-shadow: none !important;
 }
-.pointer{
+.pointer {
   cursor: pointer;
+}
+
+/*accordian*/
+.accordion {
+  background-color: transparent;
+  color: #0e3192;
+  font-family: light;
+  cursor: pointer;
+  padding: 24px;
+  padding-left: 0px;
+  width: 90%;
+  border: none;
+  text-align: left;
+  font-size: 18px;
+  transition: 0.4s;
+  border-bottom: 1px solid #062d78;
+  outline: none !important;
+}
+
+.active,
+.accordion:hover {
+  background-color: transparent;
+  outline: none !important;
+}
+
+.accordion:after {
+  content: "\002B";
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  outline: none !important;
+}
+
+.active:after {
+  content: "\2212";
+  outline: none !important;
+}
+
+.panel {
+  padding: 0 18px;
+  outline: none !important;
+  background-color: transparent;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }
