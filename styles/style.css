@@ -111,6 +111,7 @@ a:hover {
 /* Our Products block starts here*/
 .products{
   position: relative;
+  margin-top:160px;
 }
 .products-container{
   position: relative;
@@ -170,7 +171,7 @@ a:hover {
 
 /* Partners block Starts here*/
 .partners{
-  margin: 100px 0px;
+  margin: 150px 0px;
 }
 .partners-wrapper{
   width:60%;
@@ -193,8 +194,25 @@ a:hover {
 /* Faq block starts here*/
 .faq{
   padding-left: 100px;
+  padding-bottom:200px
 }
 /* Faq block ends here*/
+
+/* Blog block starts here*/
+.blog{
+  padding-bottom:300px;
+  padding-top:300px;
+  position: relative;
+}
+.blog-image-container{
+  position: absolute;
+  top:-450px;
+  width:60%;
+}
+.blog-background{
+  position: absolute;
+}
+/* Blog block ends here*/
 
 /* Footer block starts here*/
 .footer {
