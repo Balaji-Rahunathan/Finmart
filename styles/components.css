@@ -71,7 +71,7 @@ li a:hover {
   font-family: semibold;
 }
 
-.active {
+.nav-active {
   font-family: semibold;
 }
 
@@ -195,6 +195,17 @@ li a:hover {
   border-radius: 8px;
   border: none !important;
   color: #fff;
+  font-size: 14px;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.secondary-button {
+  padding: 10px 14px;
+  background-color: #fff;
+  border-radius: 8px;
+  font-size: 14px;
+  border: none !important;
+  color: #0e3192;
   outline: none !important;
   box-shadow: none !important;
 }
@@ -210,7 +221,7 @@ li a:hover {
   cursor: pointer;
   padding: 24px;
   padding-left: 0px;
-  width: 90%;
+  width: 94%;
   border: none;
   text-align: left;
   font-size: 18px;
@@ -227,7 +238,8 @@ li a:hover {
 
 .accordion:after {
   content: "\002B";
-  color: #777;
+  font-size: 24px;
+  color: #0e3192;
   font-weight: bold;
   float: right;
   margin-left: 5px;
@@ -236,6 +248,7 @@ li a:hover {
 
 .active:after {
   content: "\2212";
+  color: #0e3192;
   outline: none !important;
 }
 
