@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="styles/components.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
   <!-- Favicon -->
   <!-- Favicon -->
@@ -23,11 +24,200 @@
   <meta name="keywords" content="">
   <!-- <link rel="shortcut icon" href="assets/Page/preview.svg" type="image/x-icon"> -->
 </head>
+
 <body>
-  <ul class="navbar">
-    <li><a class="active" href="#home">Home</a></li>
-    <li><a href="#news">News</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
+  <div class="navbar-container">
+    <div class="navbar-icon-container">
+      <img class="navbar-icon" src="assets/icons/logo.png" />
+    </div>
+    <ul class="navbar">
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#home">Credit Cards</a></li>
+      <li><a href="#home">Loans</a></li>
+      <li><a href="#home">About Us</a></li>
+      <li><a href="#home">Refer & Earn</a></li>
+      <li><a href="#home">Contact Us</a></li>
+    </ul>
+    <div class="signin-container">
+      <div class="signin-button">Sign in</div>
+    </div>
+  </div>
+
+  <!-- Home block starts here  -->
+  <section class="home">
+    <div class="flex-row">
+      <div class="col-sm-6">
+        <div class="home-left pt-3">
+          <div class="header-1 primary text-start mt-5">
+            Find a credit card <br> that best fits <br>your needs
+          </div>
+          <div class="subtitle-1 primary text-start mt-4">
+            Simplify Money, Live Your Best Life
+          </div>
+          <button class="primary-button mt-4">
+            Get Started
+          </button>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="home-right">
+          <img class="home-background-img mt-5" src="assets/images/home-background.jpeg">
+          <div class="home-mobile-frame">
+            <img class="home-mobile-img" src="assets/images/mobile-frame.png">
+            <img class="home-mobile-ui" src="assets/images/home-mobile-ui.png">
+          </div>
+          <div class="home-info-card">
+            <img class="home-info-img" src="assets/images/frame.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Home block ends here  -->
+
+  <!-- Analytics block starts here  -->
+  <section class="analytics">
+    <div class="sm-12 row analytics-container">
+      <div class="flex-center col-sm-4 column analytics-wrapper">
+        <div class="header primary">10K+</div>
+        <div class="subtitle-1 primary">Trusted Clients</div>
+      </div>
+      <div class="flex-center col-sm-4 column divider analytics-wrapper">
+        <div class="header primary">5Mn+</div>
+        <div class="subtitle-1 primary">App Downloads</div>
+      </div>
+      <div class="flex-center col-sm-4 column divider analytics-wrapper">
+        <div class="header primary">50+</div>
+        <div class="subtitle-1 primary">Financial Partners</div>
+      </div>
+    </div>
+  </section>
+  <!-- Analytics block ends here  -->
+
+  <!-- Our products block starts here  -->
+  <section class="products">
+    <div class="col-sm-12 flex-center mt-3 column mb-5">
+
+      <div class="header-1 primary">
+        Our Products
+      </div>
+
+      <div class="description primary mb-5 mt-3 text-center">
+        All of our products are designed to help you reach your financial goals, whether <br> it's a retirement in the
+        sun or a
+        modest starter home.
+      </div>
+
+    </div>
+
+    <div class="col-sm-12 flex-center mt-5 row products-container">
+
+      <div class="col-sm-6">
+        <div class="products-img-container justify-content-start">
+          <img class="products-img pr-5" src="assets/images/card.png" />
+        </div>
+        <div class="p-5 column m-5 w-80">
+          <div class="header-1 primary mb-3">
+            Find a credit card that fits your needs
+          </div>
+          <div class="description primary w-80">
+            We provide credit cards that will help boost your lifestyle and give you that security to indulge in your
+            desires,
+            manage your finances and spend responsibly.
+          </div>
+          <button class="primary-button mt-4">
+            Learn more
+          </button>
+        </div>
+      </div>
+
+      <div class="col-sm-6 divider">
+        <div class="products-img-container justify-content-end">
+          <img class="products-img pl-5" src="assets/images/piggy.png" />
+        </div>
+        <div class="p-5 column m-5 w-80">
+          <div class="header-1 primary mb-3">
+            Put your plans in to actions
+          </div>
+          <div class="description primary w-80">
+            Finmart ensures you receive an ideal Personal Loan to fulfill your purpose whether it is small home
+            improvements,
+            expensive purchases to paying back your Credit Card debts.
+          </div>
+          <button class="primary-button mt-4">
+            Learn more
+          </button>
+        </div>
+      </div>
+
+      <div class="products-mobile-container">
+        <img class="product-mobile-frame" src="assets/images/mobile-frame.png" />
+        <img class="product-mobile-ui" src="assets/images/our-partners-ui.png" />
+      </div>
+
+    </div>
+  </section>
+  <!-- Our products block ends here  -->
+
+  <!-- Footer block starts here  -->
+  <section class="footer">
+    <div class="sm-12 row ">
+      <div class="col-sm-4 footer-logo">
+        <img src="/assets/icons/logo-light.png" />
+      </div>
+      <div class="col-sm-8 footer-contents row">
+        <div class="quick-links mr-5">
+          <div class="copyrights subtitle-2 light ">
+            Quick Links
+          </div>
+          <div class="Terms footer-links light mt-3 pointer">
+            <a>About Us</a>
+          </div>
+          <div class="Terms footer-links light mt-3 pointer">
+            <a>Products</a>
+          </div>
+          <div class="privacy footer-links light mt-3 pointer">
+            <a> Contact Us</a>
+          </div>
+        </div>
+        <div class="social mx-5">
+          <div class="copyrights subtitle-2 light ">
+            Social
+          </div>
+          <div class="Terms footer-links light mt-3 pointer">
+            <a> Facebook</a>
+          </div>
+          <div class="Terms footer-links light mt-3 pointer">
+            <a> Twitter</a>
+          </div>
+          <div class="privacy footer-links light mt-3 pointer">
+            <a> Instagram</a>
+          </div>
+        </div>
+        <div class="newsletter ml-5">
+          <div class="subtitle-1 light">
+            Subscribe to learn about our <br>latest news, updates.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sm-12 row copyrights-container">
+      <div class="copyrights footer-links light ">
+        © 2022 FINMART. All Rights Reserved.
+      </div>
+      <div class="Terms footer-links light ml-5 pointer">
+        <a> Terms</a>
+      </div>
+      <div class="privacy footer-links light ml-5 pointer">
+        <a> Privacy</a>
+      </div>
+      <div class="legal footer-links light ml-5 pointer">
+        <a> Legal</a>
+      </div>
+    </div>
+  </section>
+  <!-- Foote block ends here  -->
+
 </body>
+
 </html>
