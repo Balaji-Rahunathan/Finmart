@@ -1,0 +1,32 @@
+/* Page Style */
+body {
+  font-family: "Poppins", sans-serif;
+  margin:0px;
+
+}
+html {
+  background: linear-gradient(180deg, #FAEEE7 11.84%, #E3E5F4 77.6%);
+  scroll-behavior: smooth;
+  Height:100vh;
+  width:100vw;
+}
+
+
+a:link {
+  text-decoration: none !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+.btn {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 500px) {
+
+}
