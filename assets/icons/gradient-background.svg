@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1439px" height="461px" viewBox="0 0 1439 461" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <defs>
+        <linearGradient x1="52.5665456%" y1="43.0862932%" x2="93.9061458%" y2="56.3952164%" id="linearGradient-1">
+            <stop stop-color="#6B6FCE" offset="0%"></stop>
+            <stop stop-color="#FFB5B1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.550037%" y1="-1.70504817%" x2="74.6265527%" y2="95.0105968%" id="linearGradient-2">
+            <stop stop-color="#0E3192" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.5505038%" y1="-1.69067912%" x2="74.6203951%" y2="94.9980087%" id="linearGradient-3">
+            <stop stop-color="#0E3192" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.5491617%" y1="-1.72446527%" x2="74.6365344%" y2="95.0274355%" id="linearGradient-4">
+            <stop stop-color="#0E3192" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.5486596%" y1="-1.75676802%" x2="74.651784%" y2="95.0555645%" id="linearGradient-5">
+            <stop stop-color="#0E3192" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="gradient-background" transform="translate(1.000000, 0.000000)">
+            <rect id="Rectangle" fill="url(#linearGradient-1)" fill-rule="nonzero" x="0" y="0" width="1439" height="469"></rect>
+            <g id="Group" transform="translate(1122.000000, 49.000000)">
+                <path d="M75.5617222,463.245666 C31.2386266,294.979591 129.593306,121.973327 295.237503,76.8260917 C460.891698,31.6788563 631.115182,131.488285 675.438278,299.754359 C719.761373,468.020433 621.416693,641.026698 455.762497,686.173933 C290.108302,731.321169 119.894816,631.51174 75.5617222,463.245666 Z" id="Path" stroke="url(#linearGradient-2)" opacity="0.4"></path>
+                <path d="M12.8514908,480.338216 C-40.7401611,276.889374 78.1713157,67.7108107 278.460116,13.1237728 C478.748917,-41.46296 684.556857,79.2139841 738.148509,282.661809 C791.740161,486.110651 672.828684,695.289214 472.539884,749.87615 C272.261082,804.463087 66.4431426,683.786041 12.8514908,480.338216 Z" id="Path" stroke="url(#linearGradient-3)" opacity="0.4"></path>
+                <path d="M132.202899,447.808775 C96.2484998,311.318552 176.026073,170.98309 310.395142,134.361282 C444.764211,97.7404903 582.842702,178.701027 618.797101,315.19125 C654.7515,451.680456 574.973927,592.015918 440.604858,628.637726 C306.235789,665.259535 168.157298,584.298998 132.202899,447.808775 Z" id="Path" stroke="url(#linearGradient-4)" opacity="0.4"></path>
+                <path d="M190.513816,431.918307 C163.168076,328.138549 223.828626,221.434945 326.00271,193.58976 C428.166796,165.744575 533.150442,227.302977 560.486184,331.082735 C587.831924,434.861476 527.171374,541.56508 424.99729,569.410265 C322.833204,597.25545 217.849558,535.697047 190.513816,431.918307 Z" id="Path" stroke="url(#linearGradient-5)" opacity="0.4"></path>
+                <polygon id="Path" fill="#0E3192" fill-rule="nonzero" points="164.137924 73.250355 174.086375 67.1026507 161.998258 65.0279912 156.219158 53.8594074 154.099488 66.3765199 143.991063 73.1934036 155.769228 75.1958568 161.238376 86.2912173"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -109,6 +109,9 @@ a:hover {
 /* Analytics block ends here*/
 
 /* Our Products block starts here*/
+.products{
+  position: relative;
+}
 .products-container{
   position: relative;
   z-index: 100px;
@@ -141,7 +144,57 @@ a:hover {
 .products-img {
   width: 88%;
 }
+.product-line{
+  position: absolute;
+  right:0px;
+  top:0px;
+}
 /* Our Products block ends here*/
+
+/* About block Starts here*/
+.about{
+  position: relative;
+  margin-bottom:200px;
+}
+.about-background{
+  position: absolute;
+}
+/* About block ends here*/
+
+/* Why us block Starts here*/
+.whyus{
+  margin-bottom:100px;
+}
+
+/* Why us block ends here*/
+
+/* Partners block Starts here*/
+.partners{
+  margin: 100px 0px;
+}
+.partners-wrapper{
+  width:60%;
+  flex-wrap: wrap;
+} 
+.partners-logo-container{
+  width: 160px;
+  display: flex;
+  margin:10px 30px;
+  justify-content:"center";
+  align-items: center;
+}
+.partners-logo{
+  width: 150px;
+  height: 100px;
+  object-fit: contain;
+}
+/* Partners block ends here*/
+
+/* Faq block starts here*/
+.faq{
+  padding-left: 100px;
+}
+/* Faq block ends here*/
 
 /* Footer block starts here*/
 .footer {
