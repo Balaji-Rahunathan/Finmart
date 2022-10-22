@@ -68,18 +68,18 @@ a:hover {
 }
 .home-mobile-img {
   position: absolute;
-  left: 0;
+  left: 50px;
   top: 0;
-  width: 220px;
+  width: 250px;
   object-fit: contain;
   border-radius: 12px;
-  box-shadow: 6px 6px 0px 2px rgba(0, 0, 90, 0.05);
+  /* box-shadow: 6px 6px 0px 2px rgba(0, 0, 90, 0.05); */
 }
 .home-mobile-ui {
   position: absolute;
-  left: 10px;
-  top: 10px;
-  width: 200px;
+  left: 50px;
+  top: 3px;
+  width: 236px;
   object-fit: contain;
 }
 .home-info-card {
@@ -127,13 +127,13 @@ a:hover {
   width: 100%;
 }
 .product-mobile-frame {
-  width: 24%;
+  width: 25%;
   position: absolute;
   top: 0px;
   left: 0px;
 }
 .product-mobile-ui {
-  width: 22%;
+  width: 20%;
   position: absolute;
   top: 20px;
   left: 20px;
@@ -280,7 +280,7 @@ a:hover {
 }
 .footer-logo {
   border-right: 1px solid #fff;
-  padding: 80px !important;
+  padding: 150px !important;
   display: flex;
   justify-content: start;
   align-items: flex-start;
@@ -325,18 +325,18 @@ a:hover {
   }
   .home-mobile-img {
     position: absolute;
-    left: 0;
+    /* left: 0;
     top: 0;
-    width: 280px;
+    width: 280px; */
     object-fit: contain;
     border-radius: 12px;
-    box-shadow: 6px 6px 0px 2px rgba(0, 0, 90, 0.05);
+    /* box-shadow: 6px 6px 0px 2px rgba(0, 0, 90, 0.05); */
   }
   .home-mobile-ui {
     position: absolute;
-    left: 10px;
+    /* left: 10px;
     top: 10px;
-    width: 260px;
+    width: 260px; */
     object-fit: contain;
   }
   /* Home block ends here*/
@@ -350,16 +350,18 @@ a:hover {
     width: 100%;
   }
   .product-mobile-frame {
-    width: 25%;
+    width: 21%;
     position: absolute;
     top: 0px;
     left: 0px;
+    
   }
   .product-mobile-ui {
-    width: 22%;
+    width: 20%;
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 0px;
+    left: 5px;
+
   }
   /* Our Products block ends here*/
 
@@ -376,7 +378,12 @@ a:hover {
     margin-bottom: 250px;
   }
   .about-image {
-    width: 80%;
+    width: 100%;
+    padding-right: 20%;
+  }
+  .easy-access-image {
+    width: 100%;
+    padding-right: 10%;
   }
   /* About block ends here*/
 
