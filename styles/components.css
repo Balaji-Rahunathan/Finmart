@@ -175,6 +175,11 @@ li a:hover {
 .light {
   color: #fff;
 }
+
+.underline {
+  text-decoration: underline;
+}
+
 .col-sm-6 {
   padding-left: 0px !important;
   padding-right: 0px !important;
@@ -206,6 +211,17 @@ li a:hover {
   font-size: 14px;
   border: none !important;
   color: #0e3192;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.subscribe-button {
+  padding: 10px 14px;
+  height:40px;
+  background-color: #0e3192;
+  /* border-radius: 8px; */
+  font-size: 14px;
+  border: none !important;
+  color: #fff;
   outline: none !important;
   box-shadow: none !important;
 }
@@ -260,3 +276,4 @@ li a:hover {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+/*accordian*/

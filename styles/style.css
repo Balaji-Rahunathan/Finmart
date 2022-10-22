@@ -110,33 +110,33 @@ a:hover {
 /* Analytics block ends here*/
 
 /* Our Products block starts here*/
-.products{
+.products {
   position: relative;
-  margin-top:160px;
+  margin-top: 160px;
 }
-.products-container{
+.products-container {
   position: relative;
   z-index: 100px;
   border-bottom: 1px solid #062d78;
 }
-.products-mobile-container{
+.products-mobile-container {
   position: absolute;
-  top:-5%;
-  left:38%;
+  top: -5%;
+  left: 38%;
   z-index: 1000px;
-  width:100%;
+  width: 100%;
 }
-.product-mobile-frame{
-  width:24%;
+.product-mobile-frame {
+  width: 24%;
   position: absolute;
-  top:0px;
-  left:0px
+  top: 0px;
+  left: 0px;
 }
-.product-mobile-ui{
-  width:22%;
+.product-mobile-ui {
+  width: 22%;
   position: absolute;
-  top:20px;
-  left:20px
+  top: 20px;
+  left: 20px;
 }
 .products-img-container {
   width: 100%;
@@ -146,62 +146,77 @@ a:hover {
 .products-img {
   width: 88%;
 }
-.product-line{
+.product-line {
   position: absolute;
-  right:0px;
-  top:0px;
+  right: 0px;
+  top: 0px;
 }
 /* Our Products block ends here*/
 
 /* Money block starts here */
-.money{
+.money {
   position: relative;
 }
-.money-line{
+.money-line {
   position: absolute;
-  top:-50px;
-  left:100px;
+  top: -50px;
+  left: 100px;
 }
 /* Money block ends here */
 
 /* About block Starts here*/
-.about{
+.about {
   position: relative;
-  margin-bottom:200px;
+  margin-bottom: 200px;
 }
-.about-background{
+.about-background {
   position: absolute;
 }
 /* About block ends here*/
 
 /* Why us block Starts here*/
-.whyus{
-  margin-bottom:100px;
+.why-finmart {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  padding-bottom: 100px;
 }
-.whyus-line{
+.why-finmart img {
+  width: 600px;
+  padding-left: 50px;
+}
+.why-finmart::-webkit-scrollbar {
+  display: none;
+}
+.whyus {
+  margin-bottom: 100px;
+}
+.whyus-line {
   position: absolute;
-  top:100px;
-  right:0px;
+  top: 100px;
+  right: 0px;
 }
-
 /* Why us block ends here*/
 
 /* Partners block Starts here*/
-.partners{
+.partners {
   margin: 150px 0px;
 }
-.partners-wrapper{
-  width:60%;
+.partners-wrapper {
+  width: 60%;
   flex-wrap: wrap;
-} 
-.partners-logo-container{
+}
+.partners-logo-container {
   width: 160px;
   display: flex;
-  margin:10px 30px;
-  justify-content:"center";
+  margin: 10px 30px;
+  justify-content: "center";
   align-items: center;
 }
-.partners-logo{
+.partners-logo {
   width: 150px;
   height: 100px;
   object-fit: contain;
@@ -209,49 +224,49 @@ a:hover {
 /* Partners block ends here*/
 
 /* Faq block starts here*/
-.faq{
-  padding-left:100px;
-  padding-bottom:160px
+.faq {
+  padding-left: 100px;
+  padding-bottom: 160px;
 }
 /* Faq block ends here*/
 
 /* Blog block starts here*/
-.blog{
-  padding-bottom:500px;
-  padding-top:300px;
+.blog {
+  padding-bottom: 500px;
+  padding-top: 300px;
   position: relative;
   z-index: 101;
 }
-.blog-image-container{
+.blog-image-container {
   position: absolute;
-  top:-450px;
-  width:60%;
+  top: -450px;
+  width: 60%;
   z-index: 1;
 }
-.blog-text{
+.blog-text {
   z-index: 2;
 }
-.blog-background{
+.blog-background {
   position: absolute;
   z-index: 1;
 }
-.blog-line{
+.blog-line {
   position: absolute;
-  top:-200px;
-  left:0px;
+  top: -200px;
+  left: 0px;
 }
 /* Blog block ends here*/
 
 /* Faq block starts here*/
-.faq{
+.faq {
   position: relative;
 }
-.faq-line{
+.faq-line {
   position: absolute;
   top: -900px;
   right: 0px;
 }
-.question-img{
+.question-img {
   position: absolute;
   width: 160px;
   right: 100px;
@@ -272,14 +287,106 @@ a:hover {
 }
 .footer-contents {
   padding: 100px !important;
+  padding-right: 0px !important;
 }
 .copyrights-container {
   border-top: 1px solid #fff;
   padding: 40px 80px;
 }
+.newsletter {
+  width: 50%;
+  margin-left: 10%;
+}
+.subscribe-container input {
+  width: 60%;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  font-family: regular;
+  font-size: 14px;
+  border: none;
+  outline: none;
+}
+.subscribe-container input::placeholder {
+  color: #00144d60;
+}
+
+.Terms a {
+  color: inherit;
+}
 /* Footer block ends here*/
 
-@media (min-width: 1024px) {
+@media only screen and (min-width: 1600px) {
+  /* Home block starts here */
+  .home-mobile-frame {
+    position: absolute;
+    left: -140px;
+    top: 80px;
+  }
+  .home-mobile-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 280px;
+    object-fit: contain;
+    border-radius: 12px;
+    box-shadow: 6px 6px 0px 2px rgba(0, 0, 90, 0.05);
+  }
+  .home-mobile-ui {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 260px;
+    object-fit: contain;
+  }
+  /* Home block ends here*/
+
+  /* Our Products block starts here*/
+  .products-mobile-container {
+    position: absolute;
+    top: -5%;
+    left: 38%;
+    z-index: 1000px;
+    width: 100%;
+  }
+  .product-mobile-frame {
+    width: 25%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  .product-mobile-ui {
+    width: 22%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  /* Our Products block ends here*/
+
+  /* Money block starts here */
+  .money-line {
+    position: absolute;
+    top: -50px;
+    left: 200px;
+  }
+  /* Money block ends here */
+
+  /* About block Starts here*/
+  .about {
+    margin-bottom: 250px;
+  }
+  .about-image {
+    width: 80%;
+  }
+  /* About block ends here*/
+
+  /* Why us block Starts here*/
+  .whyus-line {
+    position: absolute;
+    top: 300px;
+    right: 0px;
+  }
+  /* Why us block ends here*/
 }
 
 @media only screen and (max-width: 500px) {
