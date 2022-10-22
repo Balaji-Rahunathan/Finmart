@@ -50,7 +50,6 @@ a:hover {
   padding-bottom: 160px;
 }
 .home-left {
-  margin: 100px;
   justify-content: center;
 }
 .home-background-img {
@@ -68,18 +67,18 @@ a:hover {
 }
 .home-mobile-img {
   position: absolute;
-  left: 50px;
+  left: 20px;
   top: 0;
-  width: 250px;
+  width: 220px;
   object-fit: contain;
   border-radius: 12px;
   /* box-shadow: 6px 6px 0px 2px rgba(0, 0, 90, 0.05); */
 }
 .home-mobile-ui {
   position: absolute;
-  left: 50px;
+  left: 20px;
   top: 3px;
-  width: 236px;
+  width: 206px;
   object-fit: contain;
 }
 .home-info-card {
@@ -279,19 +278,22 @@ a:hover {
   background-color: #00144d;
 }
 .footer-logo {
-  border-right: 1px solid #fff;
-  padding: 150px !important;
   display: flex;
-  justify-content: start;
+  padding-right: 100px;
+  padding-top: 80px;
+  padding-left: 0px !important;
+  justify-content: flex-start;
   align-items: flex-start;
 }
 .footer-contents {
+  border-left: 1px solid #fff;
   padding: 100px !important;
   padding-right: 0px !important;
 }
 .copyrights-container {
   border-top: 1px solid #fff;
-  padding: 40px 80px;
+  padding: 20px 40px;
+  padding-left:10%!important;
 }
 .newsletter {
   width: 50%;
@@ -397,4 +399,5 @@ a:hover {
 }
 
 @media only screen and (max-width: 500px) {
+
 }
