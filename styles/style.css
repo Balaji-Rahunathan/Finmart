@@ -69,16 +69,16 @@ a:hover {
   position: absolute;
   left: 20px;
   top: 0;
-  width: 220px;
+  width: 200px;
   object-fit: contain;
   border-radius: 12px;
   /* box-shadow: 6px 6px 0px 2px rgba(0, 0, 90, 0.05); */
 }
 .home-mobile-ui {
   position: absolute;
-  left: 20px;
+  left: 22px;
   top: 3px;
-  width: 206px;
+  width: 187px;
   object-fit: contain;
 }
 .home-info-card {
@@ -87,7 +87,7 @@ a:hover {
   bottom: -90px;
 }
 .home-info-img {
-  width: 220px;
+  width: 180px;
   object-fit: contain;
   border-radius: 12px;
   box-shadow: 6px 6px 0px 2px rgba(0, 0, 90, 0.05);
@@ -126,16 +126,16 @@ a:hover {
   width: 100%;
 }
 .product-mobile-frame {
-  width: 25%;
+  width: 31%;
   position: absolute;
   top: 0px;
-  left: 0px;
+  left: -40px;
 }
 .product-mobile-ui {
-  width: 20%;
+  width: 29%;
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 0px;
+  left: -31px;
 }
 .products-img-container {
   width: 100%;
@@ -143,7 +143,7 @@ a:hover {
   justify-content: flex-end;
 }
 .products-img {
-  width: 88%;
+  width: 100%;
 }
 .product-line {
   position: absolute;
@@ -198,6 +198,12 @@ a:hover {
   top: 100px;
   right: 0px;
 }
+
+.easy-access-image
+{
+  width: 100%;
+  padding-right: 10%;
+}
 /* Why us block ends here*/
 
 /* Partners block Starts here*/
@@ -209,7 +215,7 @@ a:hover {
   flex-wrap: wrap;
 }
 .partners-logo-container {
-  width: 160px;
+  /* width: 160px; */
   display: flex;
   margin: 10px 30px;
   justify-content: "center";
@@ -293,7 +299,7 @@ a:hover {
 .copyrights-container {
   border-top: 1px solid #fff;
   padding: 20px 40px;
-  padding-left:10%!important;
+  padding-left:8%!important;
 }
 .newsletter {
   width: 50%;
@@ -321,24 +327,25 @@ a:hover {
 @media only screen and (min-width: 1600px) {
   /* Home block starts here */
   .home-mobile-frame {
+    
     position: absolute;
     left: -140px;
     top: 80px;
   }
   .home-mobile-img {
     position: absolute;
-    /* left: 0;
+    left: 0;
     top: 0;
-    width: 280px; */
+    width: 280px;
     object-fit: contain;
     border-radius: 12px;
     /* box-shadow: 6px 6px 0px 2px rgba(0, 0, 90, 0.05); */
   }
   .home-mobile-ui {
     position: absolute;
-    /* left: 10px;
+    left: 5px;
     top: 10px;
-    width: 260px; */
+    width: 260px;
     object-fit: contain;
   }
   /* Home block ends here*/
@@ -352,17 +359,17 @@ a:hover {
     width: 100%;
   }
   .product-mobile-frame {
-    width: 21%;
+    width: 31%;
     position: absolute;
     top: 0px;
-    left: 0px;
+    left: -50px;
     
   }
   .product-mobile-ui {
-    width: 20%;
+    width: 30%;
     position: absolute;
     top: 0px;
-    left: 5px;
+    left: -50px;
 
   }
   /* Our Products block ends here*/
@@ -382,10 +389,6 @@ a:hover {
   .about-image {
     width: 100%;
     padding-right: 20%;
-  }
-  .easy-access-image {
-    width: 100%;
-    padding-right: 10%;
   }
   /* About block ends here*/
 
