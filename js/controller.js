@@ -1,5 +1,4 @@
 var acc = document.getElementsByClassName("accordion");
-const scrollContainer = document.querySelector('main');
 var i;
 
 for (i = 0; i < acc.length; i++) {
@@ -13,8 +12,3 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
-
-scrollContainer.addEventListener('wheel', (evt) => {
-  // The magic happens here.
-  console.log(evt)
-});
