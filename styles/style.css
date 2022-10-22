@@ -1,29 +1,29 @@
 @font-face {
   font-family: "light"; /*a name to be used later*/
-  src: url("/assets/fonts/light.otf"); /*URL to font*/
+  src: url("assets/fonts/light.otf"); /*URL to font*/
 }
 @font-face {
   font-family: "semibold"; /*a name to be used later*/
-  src: url("/assets/fonts/semibold.ttf"); /*URL to font*/
+  src: url("assets/fonts/semibold.ttf"); /*URL to font*/
 }
 @font-face {
   font-family: "regular"; /*a name to be used later*/
-  src: url("/assets/fonts/regular.ttf"); /*URL to font*/
+  src: url("assets/fonts/regular.ttf"); /*URL to font*/
 }
 @font-face {
   font-family: "medium"; /*a name to be used later*/
-  src: url("/assets/fonts/medium.ttf"); /*URL to font*/
+  src: url("assets/fonts/medium.ttf"); /*URL to font*/
 }
 @font-face {
   font-family: "bold"; /*a name to be used later*/
-  src: url("/assets/fonts/extrabold.otf"); /*URL to font*/
+  src: url("assets/fonts/extrabold.otf"); /*URL to font*/
 }
 
 /* Page Style */
 body {
   font-family: "light";
   margin: 0px;
-  background-image: url("/assets/images/background.png");
+  background-image: url("assets/images/background-gradient.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
