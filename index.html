@@ -5,7 +5,7 @@
   <link href="" rel="stylesheet">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="theme-color" content="#f3e8e5" />
+  <meta name="theme-color" content="#faeee7" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0 user-scalable=no">
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -13,7 +13,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="styles/components.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
 
   <!-- Favicon -->
   <!-- Favicon -->
@@ -44,6 +45,39 @@
         <div class="signin-button">Sign in</div>
       </div>
     </div>
+
+    <nav class="navbar navbar-expand-md " id="navbar-container">
+      <div class="navbar-icon-container">
+        <img class="navbar-icon" src="assets/icons/logo.png" id="navbar-logo" />
+      </div>
+      <button class="navbar-toggler" onclick="navbarEvent()" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <img class="ham-icon" src="assets/icons/hamburger.svg" id="ham-icon" />
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item" onclick="navbarEvent()" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <a class="nav-link" href="#home" >Home</a>
+          </li>
+          <li class="nav-item" onclick="navbarEvent()" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <a class="nav-link"  href="#products">Credit Cards</a>
+          </li>
+          <li class="nav-item" onclick="navbarEvent()" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <a class="nav-link"  href="#about">Loans</a>
+          </li>
+          <li class="nav-item" onclick="navbarEvent()" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <a class="nav-link"  href="#money">About Us</a>
+          </li>
+          <li class="nav-item" onclick="navbarEvent()" data-toggle="collapse" data-target="#collapsibleNavbar" >
+            <a class="nav-link" href="#faq">Refer & Earn</a>
+          </li>
+          <li class="nav-item" onclick="navbarEvent()" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <a class="nav-link"  href="#footer">Contact Us</a>
+          </li>
+        </ul>
+        <div class="signin-button">Sign in</div>
+        <div class="signin-button signup-button">Get Started</div>
+      </div>
+    </nav>
 
     <!-- Home block starts here  -->
     <section class="home" id="home">
@@ -344,7 +378,7 @@
     <section class="footer" id="footer">
       <div class="col-sm-12 row justify-content-center footer-container">
         <div class="col-sm-2 footer-logo">
-          <img src="assets/icons/logo-light.png" />
+          <img src="assets/icons/logo-light.svg" />
         </div>
         <div class="col-sm-8 footer-contents row">
           <div class="quick-links mr-5">
@@ -387,25 +421,25 @@
         </div>
       </div>
       <div class="col-sm-12 row copyrights-container">
-          <div class="copyrights footer-links light ">
-            © 2022 FINMART. All Rights Reserved.
-          </div>
-          <div class="legal footer-links light ml-5 pointer">
-            <a> Terms</a>
-          </div>
-          <div class="legal footer-links light ml-5 pointer">
-            <a> Privacy</a>
-          </div>
-          <div class="legal footer-links light ml-5 pointer">
-            <a> Legal</a>
-          </div>
+        <div class="copyrights footer-links light ">
+          © 2022 FINMART. All Rights Reserved.
+        </div>
+        <div class="legal footer-links light ml-5 pointer">
+          <a> Terms</a>
+        </div>
+        <div class="legal footer-links light ml-5 pointer">
+          <a> Privacy</a>
+        </div>
+        <div class="legal footer-links light ml-5 pointer">
+          <a> Legal</a>
+        </div>
       </div>
     </section>
     <!-- Foote block ends here  -->
   </main>
-  <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js referrerpolicy="no-referrer"></script>
-  <script src=https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js crossorigin="anonymous"></script>
-  <script src=https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/controller.js" crossorigin="anonymous"></script>
 </body>
 

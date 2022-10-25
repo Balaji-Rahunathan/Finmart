@@ -408,9 +408,11 @@ a:hover {
     width: 100vw;
   }
 
-
-
   /* Home block starts here */
+  .home {
+  padding-top: 60px;
+  padding-bottom: 160px;
+}
   .home div {
     align-items: flex-end;
     justify-content: flex-end;

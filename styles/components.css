@@ -285,10 +285,55 @@ li a:hover {
 /*accordian*/
 
 @media only screen and (max-width: 500px) {
-  
+  .navbar{
+    background-color:#faeee7;
+    position:fixed !important;
+    width: 100%;
+    z-index: 10000;
+  }
   .navbar-container {
     display: none !important;
   }
+
+  .navbar-collapse {
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar-nav {
+    width:100%;
+    padding:20px 0px !important;
+  }
+  .ham-icon{
+    width:30px;
+    height:30px;
+  }
+
+  .nav-item{
+    padding:10px;
+  }
+  .nav-link{
+    color:#fff
+  }
+
+  .signin-button{
+    border: 1px solid #fff;
+    color:#fff;
+    width: 90%;
+    border-radius: 8px !important;
+    height:60px;
+    margin:10px auto;
+  }
+  .signup-button{
+    border: 1px solid #fff;
+    color:#0E3192;
+    background-color:#fff;
+    width: 90%;
+    height:60px;
+    border-radius: 8px !important;
+    margin:auto;
+    margin-bottom: 30px;
+  }
+
   .header {
     font-size: 56px;
     font-family: medium;
