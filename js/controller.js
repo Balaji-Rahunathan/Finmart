@@ -61,3 +61,18 @@ function navbarEvent() {
     hamIcon.src = "assets/icons/close.svg"
   }
 }
+window.addEventListener('resize',() => changeSource());
+
+changeSource()
+
+function changeSource() {
+  let aboutBg = document.getElementById("about-image")
+  let blogBg = document.getElementById("blog-background")
+  if(window.innerWidth>500){
+    aboutBg.src = "assets/icons/gradient-background.svg"
+    blogBg.src = "assets/icons/blog-gradient.svg"
+  }else{
+    aboutBg.src = "assets/icons/Gradient_Circle.svg"
+    blogBg.src = "assets/icons/Gradient_2.svg"
+  }
+}
