@@ -285,6 +285,10 @@ li a:hover {
 /*accordian*/
 
 @media only screen and (max-width: 500px) {
+  
+  .navbar-container {
+    display: none !important;
+  }
   .header {
     font-size: 56px;
     font-family: medium;

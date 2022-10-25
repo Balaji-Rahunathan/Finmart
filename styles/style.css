@@ -28,8 +28,10 @@ body {
   background-attachment: fixed;
   background-size: cover;
   overflow-x: hidden;
+  background-color: #f3e8e5;
 }
 html {
+  background-color: #f3e8e5;
   scroll-behavior: smooth;
 }
 
@@ -406,9 +408,7 @@ a:hover {
     width: 100vw;
   }
 
-  .navbar-container {
-    display: none !important;
-  }
+
 
   /* Home block starts here */
   .home div {
@@ -484,6 +484,8 @@ a:hover {
     margin: 20px !important;
     padding: 20px !important;
     margin-bottom: 60px !important;
+    margin-left: 12px !important;
+    padding-left: 12px !important;
   }
 
   .product-line {
