@@ -50,14 +50,14 @@ function navbarEvent() {
     isNavbarOpen = false
     setTimeout(() => {
       navbar.style.backgroundColor = "#faeee7"
-      navbarLogo.src = "../assets/icons/logo.png"
-      hamIcon.src = "../assets/icons/hamburger.svg"
+      navbarLogo.src = "assets/icons/logo.png"
+      hamIcon.src = "assets/icons/hamburger.svg"
     }, 260)
 
   } else {
     isNavbarOpen = true
     navbar.style.backgroundColor = "#0E3192"
-    navbarLogo.src = "../assets/icons/logo-light.svg"
-    hamIcon.src = "../assets/icons/close.svg"
+    navbarLogo.src = "assets/icons/logo-light.svg"
+    hamIcon.src = "assets/icons/close.svg"
   }
 }
