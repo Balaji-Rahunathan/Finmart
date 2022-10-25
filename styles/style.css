@@ -201,8 +201,7 @@ a:hover {
   right: 0px;
 }
 
-.easy-access-image
-{
+.easy-access-image {
   width: 100%;
   padding-right: 10%;
 }
@@ -220,7 +219,7 @@ a:hover {
   /* width: 160px; */
   display: flex;
   margin: 10px 30px;
-  justify-content: "center";
+  justify-content: center;
   align-items: center;
 }
 .partners-logo {
@@ -329,7 +328,6 @@ a:hover {
 @media only screen and (min-width: 1600px) {
   /* Home block starts here */
   .home-mobile-frame {
-    
     position: absolute;
     left: -140px;
     top: 80px;
@@ -470,9 +468,24 @@ a:hover {
   /*Analytics block ends here*/
 
   /*Products block starts here*/
+  .products {
+    margin-top: 80px;
+  }
+  .products .products-title-container {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+  }
   .product-description {
     width: 75%;
+    margin-bottom: 0px !important ;
   }
+
+  .products .products-content-container {
+    margin: 20px !important;
+    padding: 20px !important;
+    margin-bottom: 60px !important;
+  }
+
   .product-line {
     display: none;
   }
@@ -484,9 +497,85 @@ a:hover {
     display: flex;
     justify-content: flex-end;
   }
-  .products-img {
+  .products .products-img {
     width: 100%;
-    padding-right:0px !important;
+    padding-right: 0px !important;
+    margin-bottom: 0px !important;
   }
   /*Products block ends here*/
+
+  /* money block starts here  */
+  .money-line {
+    display: none;
+  }
+  .money img {
+    padding-right: 10px !important;
+    width: 40%;
+  }
+  /* money block ends here  */
+
+  /* About block Starts here*/
+  .about {
+    position: relative;
+    margin-bottom: 50px;
+  }
+  .about-background {
+    position: absolute;
+  }
+  .about-image{
+    width: 100%;
+  }
+  .about .about-image-container {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+
+  .about .about-container {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+
+  .about-background{
+    bottom:0px;
+    left:0px;
+    width:100%;
+    height:500px;
+    height:100%;
+    object-fit: cover;
+  }
+
+  .about-content-container{
+    padding-top: 40px;
+    padding-bottom: 100px;
+    padding-left:24px !important;
+  }
+  /* About block ends here*/
+
+  /* Why us block Starts here*/
+.why-finmart {
+  padding-bottom: 80px;
+}
+.why-finmart img {
+  width: 300px;
+  padding-left: 50px;
+  display: none;
+}
+.whyus {
+  margin-bottom: 0px;
+}
+.whyus-line {
+  display:none;
+}
+.easy-access-image{
+  padding-right: 0px !important;
+}
+.easy-access-image-container {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+.whyus .whyus-content-container{
+  padding-top: 24px;
+  padding-left: 24px !important;
+}
+/* Why us block ends here*/
 }
