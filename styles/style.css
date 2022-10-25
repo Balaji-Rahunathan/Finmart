@@ -72,7 +72,6 @@ a:hover {
   width: 200px;
   object-fit: contain;
   border-radius: 12px;
-  /* box-shadow: 6px 6px 0px 2px rgba(0, 0, 90, 0.05); */
 }
 .home-mobile-ui {
   position: absolute;
@@ -112,6 +111,9 @@ a:hover {
 .products {
   position: relative;
   margin-top: 160px;
+}
+.product-description {
+  width: 50%;
 }
 .products-container {
   position: relative;
@@ -299,7 +301,7 @@ a:hover {
 .copyrights-container {
   border-top: 1px solid #fff;
   padding: 20px 40px;
-  padding-left:8%!important;
+  padding-left: 10% !important;
 }
 .newsletter {
   width: 50%;
@@ -362,15 +364,13 @@ a:hover {
     width: 31%;
     position: absolute;
     top: 0px;
-    left: -50px;
-    
+    left: 0px;
   }
   .product-mobile-ui {
     width: 30%;
     position: absolute;
     top: 0px;
-    left: -50px;
-
+    left: 5px;
   }
   /* Our Products block ends here*/
 
@@ -401,6 +401,92 @@ a:hover {
   /* Why us block ends here*/
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
+  body,
+  html {
+    overflow-x: hidden;
+    width: 100vw;
+  }
 
+  .navbar-container {
+    display: none !important;
+  }
+
+  /* Home block starts here */
+  .home div {
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .home-left {
+    padding: 32px !important;
+  }
+
+  .home-background-img {
+    margin-left: 100px;
+  }
+
+  .home-mobile-frame {
+    position: absolute;
+    left: 30px;
+    top: 65px;
+  }
+
+  .home-mobile-img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 150px;
+    object-fit: contain;
+    border-radius: 12px;
+  }
+  .home-mobile-ui {
+    position: absolute;
+    left: 0px;
+    top: 3px;
+    width: 140px;
+    object-fit: contain;
+  }
+  .home-info-card {
+    position: absolute;
+    right: 60px;
+    bottom: -50px;
+  }
+  .home-info-img {
+    width: 100px;
+    object-fit: contain;
+    border-radius: 12px;
+    box-shadow: 6px 6px 0px 2px rgba(0, 0, 90, 0.05);
+  }
+  /* Home block ends here*/
+
+  /*Analytics block starts here*/
+  .divider {
+    border-top: 1px solid #062d78;
+  }
+  /*Analytics block ends here*/
+
+  /*Products block starts here*/
+  .product-description {
+    width: 75%;
+  }
+  .product-line {
+    display: none;
+  }
+  .products-mobile-container {
+    display: none;
+  }
+  .products-img-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .products-img {
+    width: 100%;
+    padding-right:0px !important;
+  }
+  /*Products block ends here*/
 }
